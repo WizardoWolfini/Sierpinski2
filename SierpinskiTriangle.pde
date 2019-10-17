@@ -2,7 +2,7 @@ import processing.sound.*;
 Amplitude amp;
 AudioIn in;
 String[] soundList = Sound.list();
-int selectedAudioOutput = 5;
+int selectedAudioOutput = 0;
 float[][] audioWeights = new float[][]{new float[]{8, 1.5}, new float[]{12, 2}, new float[]{50, 6}};
 float audioMulti = 12;
 float audioPow = 2;
